@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegPage</title>
+    <style>
+        h1 {text-align: center;
+        background-color: blanchedalmond;
+        padding: 4px;}
+        .regform{
+            padding-top: 2rem;
+            padding-left: 8rem;
+            margin: 15%;
+            border: 2px solid black;
+            height: auto;
+            width: 50%;
+            background-color: aquamarine;
+ }
+ .formelement{
+     padding: 9px;
+     text-align: center;
+    width: 80%;
+ }
+ button{
+     background-color: darkgray;
+     text-align: center;
+     padding: 0.5rem;
+     margin-left: 22%;
+     margin-bottom: 5%;
+ }
+    </style>
+</head>
+<body>
+    <h1>Registeration Page for User</h1>
+    <form action="" class="regform">
+        First Name <br> <input type="text" class="formelement"><br><br>
+        Lastt Name <br> <input type="text"class="formelement"><br><br>
+        Mobile No. <br><input type="number"class="formelement"><br><br>
+        Email     <br> <input type="email"class="formelement"><br><br>
+        Gender  <br> Male <input type="radio" name="sex">Female<input type="radio" name="sex"><br><br>
+        Country   <select name="dropdown" id="">
+            <option value="">india</option>
+            <option value="">Usa</option>
+            <option value="">Rusia</option>
+        </select><br><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </form>
+</body>
+</html>
